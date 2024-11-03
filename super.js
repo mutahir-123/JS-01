@@ -1,4 +1,5 @@
 var score = 0
+var start = alert("START QUIZ")
 var quizNo1 = prompt("Q1 : What is the default value of the position property in CSS?");
 var quizNo2 = prompt("Q2 : Which CSS property is used to change the background color?");
 var quizNo3 = prompt("Q3 : What attribute is required for the <img> tag?");
@@ -51,4 +52,11 @@ if(quizNo10===" text-align: center;" || quizNo10==="text-align:center;"){
     score =  score + 1
 }
 
-alert("Score = 10/" + score)
+alert("Score =10/" + score)
+
+if(score>=6){
+    alert("CONRATULATIONS YOU PASSED THE TEST")
+}
+else{
+    alert("UNFORTUNATELY YOU FAILED THE TEST")
+}
